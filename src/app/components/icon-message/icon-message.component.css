@@ -1,0 +1,24 @@
+.crud-create {
+  display: grid;
+  grid-area: aside;
+  align-content: center;
+  text-align: center;
+  padding: 15px;
+  margin: 15px 15px 15px 0px;
+  width: 85px;
+  height: 78px;
+  border-radius: 5px;
+}
+.material-symbols-outlined.add-img {
+  color: #bebebe;
+}
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 500, "GRAD" 0, "opsz" 40;
+  color: #00de97;
+}
+
+.crud-create.add-img{
+  width: 209px;
+  height: 169px;
+  border: 1px solid #bebebe;
+}

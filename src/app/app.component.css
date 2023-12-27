@@ -1,0 +1,5 @@
+.container-body{
+  display: grid;
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
+}

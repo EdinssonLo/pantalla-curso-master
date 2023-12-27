@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  height: 100%;
+}
+.curso {
+  display: grid;
+  grid-template-areas:
+  "icon"
+  "article"
+  ;
+  justify-items: center;
+}
+
+.main {
+  display: grid;
+  grid-area: article;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 15px;
+  padding: 15px;
+  justify-items: center;
+}
+.icon-add{
+  grid-area: icon;
+}
+
+@media (min-width:767px) {
+  .curso {
+    grid-template-columns: 1fr 12fr;
+    grid-template-areas:
+    "icon article"
+    ;
+    justify-items: normal;
+  }
+}

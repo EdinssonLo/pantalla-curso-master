@@ -1,0 +1,38 @@
+.buttons {
+  display: grid;
+  justify-items: center;
+}
+
+button {
+  padding: 5px;
+  margin: 5px;
+  height: 37px;
+  width: 90%;
+  font-family: "Lato", sans-serif;
+}
+
+.btn-cancel {
+  color: #2f0084;
+  border-radius: 6px;
+  border: 1px solid #2f0084;
+}
+
+.btn-next {
+  background: #00de97;
+  border-radius: 6px;
+  border: none;
+}
+
+@media (min-width: 767px) {
+  .buttons {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1024px) {
+  button {
+   width: 267px;
+  }
+}
+
+

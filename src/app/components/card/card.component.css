@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff;
+  color: black;
+  width: 208px;
+  height: 261px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 17px 0px #00000040;
+  padding: 10px
+}
+
+.card p {
+  color: black;
+  font-family: lato;
+  font-size: 0.764rem;
+}
+
+.card .title {
+  font-family: lato;
+  font-size: 1.167rem;
+}
+
+.card .video {
+  background-color: cornflowerblue;
+  width: 190px;
+  height: 126.21px;
+  border-radius: 5px;
+  text-align: center;
+}
+ .info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+a {
+  font-family: lato;
+  text-decoration: none;
+  color: black;
+  margin: 5px;
+  font-size: 1.167rem;
+}
+
+.button-crud {
+  display: grid;
+  grid-template-columns:repeat(3, 1fr);
+  padding: 15px;
+}
