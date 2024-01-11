@@ -1,5 +1,9 @@
 .container-body{
   display: grid;
   justify-content: center;
-  font-family: 'Lato', sans-serif;
 }
+.container-header-body, .container-principal, .container-body{
+  height: 100%;
+  width: 100%;
+}
+

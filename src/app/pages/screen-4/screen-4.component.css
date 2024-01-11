@@ -1,0 +1,51 @@
+
+.item-list {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-areas:
+    "title"
+    "icon"
+    "list"
+    "buttons-form";
+  justify-items: center;
+  align-content: space-around;
+  gap: 15px;
+}
+
+
+.icon {
+  grid-area: icon;
+}
+.list {
+  display: grid;
+  grid-area: list;
+  width: 100%;
+  margin: 15px;
+  padding: 15px;
+  font-size: 0.954rem;
+  gap: 15px;
+}
+.buttons-form {
+  grid-area: buttons-form;
+  width: 100%;
+}
+.title {
+  grid-area: title;
+  font-family: Lato;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 100%;
+  color: #2F0084;
+}
+@media (min-width: 767px) {
+  .item-list {
+    grid-template-areas:
+      "title title"
+      "icon list"
+      "buttons-form buttons-form";
+  }
+}

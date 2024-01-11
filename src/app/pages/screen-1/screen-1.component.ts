@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { CardComponent } from '../components/card/card.component'
-import { IconMessageComponent  } from "../components/icon-message/icon-message.component";
+import { CardComponent } from '../../components/card/card.component'
+import { IconMessageComponent  } from "../../components/icon-message/icon-message.component";
 
 
 @Component({

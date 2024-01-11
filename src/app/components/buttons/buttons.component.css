@@ -19,6 +19,7 @@ button {
 
 .btn-next {
   background: #00de97;
+  color: #2f0084;
   border-radius: 6px;
   border: none;
 }
@@ -32,6 +33,9 @@ button {
 @media (min-width: 1024px) {
   button {
    width: 267px;
+  }
+  .buttons{
+    justify-items: center;
   }
 }
 

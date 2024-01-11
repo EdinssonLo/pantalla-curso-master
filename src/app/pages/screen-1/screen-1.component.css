@@ -13,6 +13,9 @@ html{
   "article"
   ;
   justify-items: center;
+
+  justify-items: center;
+  align-content: space-around;
 }
 
 .main {

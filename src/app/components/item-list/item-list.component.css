@@ -1,0 +1,31 @@
+
+.item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  border: 1px solid #D9D9D9;
+  font-family: "lato";
+  padding: 15px;
+}
+.tittle {
+  color: #2F0084;
+}
+
+.info{
+  color: #00de97;
+}
+.crud{
+  display:grid ;
+  grid-template-columns: 1fr 1fr ;
+  gap: 15px;
+}
+a {
+  font-family: "lato";
+  text-decoration: none;
+  color: black;
+  font-size: 1.167rem;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
