@@ -10,15 +10,11 @@
     "icono"
     "textArea"
     ;
-  padding: 15px;
-  font-family: "Lato", sans-serif;
+  font-family: "lato", sans-serif;
   gap: 15px;
   border: 1px solid #D9D9D9;
   width: 100%;
-
-}
-.t-area{
-  width: 100%;
+  padding: 15px;
 }
 .t-areas {
   background: #d9d9d952;
@@ -30,7 +26,7 @@
 }
 textarea::placeholder {
   color: #cccccc;
-  font-family: Lato;
+  font-family: "lato";
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 17px;

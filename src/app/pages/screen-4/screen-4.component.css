@@ -21,7 +21,6 @@
   display: grid;
   grid-area: list;
   width: 100%;
-  margin: 15px;
   padding: 15px;
   font-size: 0.954rem;
   gap: 15px;
@@ -32,14 +31,14 @@
 }
 .title {
   grid-area: title;
-  font-family: Lato;
-  font-size: 32px;
+  font-family: "lato";
+  font-size: 2rem;
   font-weight: 600;
   line-height: 38px;
   letter-spacing: 0em;
-  text-align: left;
   width: 100%;
   color: #2F0084;
+
 }
 @media (min-width: 767px) {
   .item-list {

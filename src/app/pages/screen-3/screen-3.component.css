@@ -1,7 +1,7 @@
 .course-manager{
   display: grid;
-  width: 100%;
   height: 100%;
+  width: 100%;
   grid-template-rows: 1fr 2fr 1fr;
   gap: 15px;
   color: #2F0084;
@@ -11,12 +11,13 @@
 
 .obj-ability{
   display: grid;
+  width: 100%;
   gap: 15px;
 }
 
 .title{
-  font-family: Lato;
-font-size: 32px;
+  font-family: "lato";
+font-size: 2rem;
 font-weight: 600;
 line-height: 38px;
 letter-spacing: 0em;

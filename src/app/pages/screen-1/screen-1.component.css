@@ -28,7 +28,10 @@ html{
 }
 .icon-add{
   grid-area: icon;
+
 }
+
+
 
 @media (min-width:767px) {
   .curso {

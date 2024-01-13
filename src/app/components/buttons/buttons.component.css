@@ -8,7 +8,7 @@ button {
   margin: 5px;
   height: 37px;
   width: 90%;
-  font-family: "Lato", sans-serif;
+  font-family: "lato", sans-serif;
 }
 
 .btn-cancel {
@@ -32,11 +32,10 @@ button {
 
 @media (min-width: 1024px) {
   button {
-   width: 267px;
+    width:207px ;
+    height: 37px;
   }
-  .buttons{
+  .buttons {
     justify-items: center;
   }
 }
-
-

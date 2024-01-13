@@ -18,7 +18,7 @@
 
 .card p {
   color: black;
-  font-family: "Lato";
+  font-family: "lato";
   font-weight: 300;
   line-height: 15px;
   letter-spacing: 0em;
@@ -27,7 +27,7 @@
 }
 
 .card .title {
-  font-family: "Lato";
+  font-family: "lato";
   font-weight: 700;
   line-height: 22px;
   letter-spacing: 0em;

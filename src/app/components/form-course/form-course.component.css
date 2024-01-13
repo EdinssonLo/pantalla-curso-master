@@ -8,16 +8,14 @@ html {
 }
 form {
   display: grid;
-  margin: 15px;
   padding: 15px;
   width: 90%;
   height: 475px;
-  grid-area: left-form;
-  border: 1px solid #d9d9d9;
 }
 input {
   border: none;
   border-bottom: 1px solid #bebebe;
+  outline: none;
 }
 
 .description-course {
@@ -28,7 +26,7 @@ input {
 }
 textarea::placeholder {
   color: #cccccc;
-  font-family: Lato;
+  font-family: "lato";
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 17px;
@@ -37,7 +35,7 @@ textarea::placeholder {
 }
 
 label {
-  font-family: Lato;
+  font-family: "lato";
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 17px;
@@ -49,12 +47,10 @@ label {
 @media (min-width: 1024px) {
   form {
     width: 372px;
-    height: 475px;
   }
 }
 @media (min-width: 768px) {
   form {
     width: 372px;
-    height: 90%;
   }
 }
