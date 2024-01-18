@@ -1,0 +1,39 @@
+.carousel{
+  width: 100%;
+  position: relative;
+}
+.carousel-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+}
+
+.state-initial {
+  border-bottom: 2px solid #bebebe;
+  padding: 0px 15px 10px 15px;
+  font-family: "lato";
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-align: left;
+  color: #bebebe;
+}
+
+.activo {
+  color: #2f0084;
+  border-bottom: 3px solid #2f0084;
+  font-family: "lato";
+  font-size: 1.25rem;
+  font-weight: 800;
+  line-height: 24px;
+}
+
+
+
+.no-ver{
+  position: relative;
+  display: none !important;
+}
+
+.carousel-inner> div{
+  cursor: pointer;
+}

@@ -1,0 +1,25 @@
+<div class="carousel">
+
+  <div class="carousel-inner">
+    <div
+      class="question-{{ getSlide(0) }}  state-initial activo"
+      (click)="getPrev()"
+    >
+      pregunta {{ getSlide(0) }}
+    </div>
+
+    <div
+      class="question-{{ getSlide(1)  }}  state-initial"
+      (click)="getElement(getSlide(1))"
+    >
+      pregunta {{ getSlide(1)  }}
+    </div>
+    <div
+      class="question-{{ getSlide(2)  }}  state-initial"
+      (click)="getNext()"
+    >
+      pregunta {{ getSlide(2) }}
+    </div>
+
+  </div>
+</div>

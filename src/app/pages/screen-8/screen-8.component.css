@@ -51,7 +51,6 @@ label {
   font-weight: 400;
   color: #686868;
 }
-
 .description-course {
   background: #d9d9d952;
   border-radius: 4px;
@@ -89,7 +88,15 @@ textarea::placeholder {
     height: 100%;
   }
   .description {
-    height: auto;
+    width: 324px;
+    height: 92px;
+  }
+  input {
+    width: 324px;
+  }
+  .container-right {
+    width: 372px;
+    height: 205px;
   }
 }
 

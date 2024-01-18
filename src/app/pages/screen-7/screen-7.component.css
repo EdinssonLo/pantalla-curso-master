@@ -2,7 +2,9 @@
   display: grid;
   grid-template-areas:
     "formQuestion"
-    "question";
+    "question"
+    "descriptionAnswer"
+    "buttons";
   gap: 15px;
   align-items: center;
   width: 100%;
@@ -10,32 +12,20 @@
 }
 .question {
   grid-area: question;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
 }
 .form-question {
   grid-area: formQuestion;
   width: 100%;
   height: 100%;
 }
-
-.prueba {
-  border-bottom: 2px solid #bebebe;
-  padding: 0px 15px 10px 15px;
-  font-family: "lato";
-  font-size: 1.25rem;
-  font-weight: 600;
-  text-align: left;
-  color: #bebebe;
+.description-answer {
+  grid-area: descriptionAnswer;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 15px;
 }
-
-.prueba:active {
-  color: #2f0084;
-  border-bottom: 3px solid #2f0084;
-  font-family: "lato";
-  font-size: 1.25rem;
-  font-weight: 800;
-  line-height: 24px;
+.buttons {
+  grid-area: buttons;
 }
 
 input {
@@ -44,6 +34,12 @@ input {
   outline: none;
   width: 100%;
 }
+.check-box>input{
+
+  accent-color: red;
+  color: inherit;
+}
+
 label {
   font-family: "lato";
   font-size: 0.875rem;
@@ -73,23 +69,57 @@ textarea::placeholder {
   text-align: left;
 }
 
-.answers{
+.answers {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  border: 1px solid #BEBEBE;
+  border: 1px solid #bebebe;
   border-radius: 16px;
   align-items: center;
 }
 
-.answer{
+.answer {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
+  padding: 15px;
+  gap: 15px;
 }
 
-.correct-answer{
-  border-left: 1px solid #BEBEBE;
+.correct-answer {
+  border-left: 1px solid #bebebe;
+  font-family: "lato";
+  text-align: center;
+  color: #bebebe;
+  padding: 15px;
 }
 
-input, label{
-    vertical-align: middle;
+.check-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .form-question {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+  .description {
+    width: 416px;
+    height: 75px;
+  }
+  .description-answer > .description {
+    width: 611px;
+    height: 65px;
+  }
+  .description-answer{
+    display: grid;
+    grid-template-rows: auto 1fr;
+    justify-items: center;
+  }
+
+  .answers {
+    width: 611px;
+    height: 214px;
+  }
 }
